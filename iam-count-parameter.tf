@@ -22,7 +22,7 @@ resource "aws_iam_user" "lb" {
 =================================================
 ### count-paremeter.tf
 
-```sh
+
 provider "aws" {
   region     = "us-west-2"
   access_key = "YOUR-ACCESS-KEY"
@@ -35,4 +35,4 @@ resource "aws_instance" "instance-1" {
    instance_type = "t2.micro"
    count = 3
 }
-```
+
